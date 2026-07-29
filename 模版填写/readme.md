@@ -2,7 +2,7 @@
 ## 1. 功能概述
 **文档模版填写**是基于MCP协议开发的Word自动生成技能，内置PCL采购相关标准化Word模板；用户通过自然语言描述需求，Agent自动匹配模板、提取业务字段、渲染生成Word文档，并返回外网直链供下载。
 服务部署于内部集群，支持多套标准文档一键生成。
-<img width="2704" height="1624" alt="技能安装" src="https://github.com/user-attachments/assets/68628a10-73e2-4d29-aa89-de8d9265b57c" />
+![技能描述](./fig/技能安装.png)
 
 ## 2. 当前内置可用模板清单
 
@@ -19,14 +19,14 @@
 ### 查询全部可用模板与填写字段
 **示例：**
 Agent返回模板列表与场景说明。
-<img width="2158" height="1220" alt="模版查询" src="https://github.com/user-attachments/assets/53d09a05-31e8-404c-8a52-afd252451cc9" />
+![模版查询](./fig/模版查询.png)
 Agent返回模板填写字段列表。
-<img width="2796" height="1246" alt="字段查询" src="https://github.com/user-attachments/assets/428ca46b-4540-4f29-874d-e63577d9ac71" />
+![字段查询](./fig/字段查询.png)
 
 
 ### 发起文档填写请求
 示例：
-<img width="1560" height="995" alt="结果生成" src="https://github.com/user-attachments/assets/38bc83d5-c289-4382-a91e-a2c4e0187399" />
+![文档生成](./fig/结果生成.png)
 
 > 系统自动识别匹配模板：【采购】(5w以下)04PCNL履约验收单（自行验收）
 
