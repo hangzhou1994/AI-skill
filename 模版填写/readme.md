@@ -26,7 +26,8 @@ Agent返回模板填写字段列表。
 
 ### 发起文档填写请求
 示例：
-<img width="1560" height="995" alt="结果生成" src="https://github.com/user-attachments/assets/355dd986-fe28-49dd-b0fe-aaf32e609ace" />
+<img width="1560" height="995" alt="结果生成" src="https://github.com/user-attachments/assets/38bc83d5-c289-4382-a91e-a2c4e0187399" />
+
 > 系统自动识别匹配模板：【采购】(5w以下)04PCNL履约验收单（自行验收）
 > ⚠️ 注意：该模板原始设计用于5万以内采购；金额超5w时，建议手动指定模板名称强制生成。
 > ⚠️ 注意：涉密或未知信息的必填字段会先用"待填写"填入，可以下载后自行手动填写。
