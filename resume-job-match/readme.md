@@ -4,14 +4,14 @@
 ## 1. 使用前准备
 1. **技能接入完成**
 技能地址：`http://192.168.208.96:30084/mcp`，已在Agent客户端【技能】面板完成添加，技能名称：`resume-job-match`。
-<img width="2626" height="1254" alt="FastAPI服务K8s部署问题" src="https://github.com/user-attachments/assets/f6ab6e04-fec8-4774-9b49-2f6d65388389" />
+![技能安装](./fig/技能安装.jpeg)
 
-3. **文件准备**
+2. **文件上传**
    - 岗位JD文件：支持docx格式，完整包含岗位名称、专业要求、技能条件、工作经验硬性门槛；
    - 候选人简历：支持PDF格式，单份/批量多份简历同时上传；
-> 建议：JD单独一个文档
-。
-<img width="2580" height="1636" alt="FastAPI服务K8s部署问题 (1)" src="https://github.com/user-attachments/assets/6e284569-e4aa-4af9-a1e3-eac573555943" />
+> 建议：JD单独一个文档。
+
+![文件上传](./fig/文件准备.jpeg)
 ## 2. 如何使用
 ### 操作步骤
 1. 在对话框上方点击加号，上传**岗位JD文档** + **所有候选人简历文件**；
@@ -36,7 +36,7 @@
 技能运行完成后，自动输出标准化《岗位匹配分析报告》，报告固定包含4大模块：
 ### 模块1：岗位核心要求拆解
 提取JD内容，拆分岗位硬性门槛：专业背景、必备技能、项目/工作经验，区分工程师/研究岗不同要求（如存在），以表格结构化展示。
-<img width="2868" height="1634" alt="FastAPI服务K8s部署问题 (2)" src="https://github.com/user-attachments/assets/04028a80-2a09-4184-8da5-b514f68b18ea" />
+![岗位分析](./fig/岗位分析.jpeg)
 ### 模块2：候选人逐一匹配分析
 每位候选人独立小节，包含表格评估：
 - 教育背景
@@ -44,11 +44,11 @@
 - 工作/项目经验
 - 掌握专业技能
 最后输出**匹配度区间 + 简短结论**（匹配/不匹配）。
-<img width="2710" height="1626" alt="FastAPI服务K8s部署问题 (3)" src="https://github.com/user-attachments/assets/1f37fa09-c96d-43c1-996b-4ef3ab59a12f" />
+![候选人分析](./fig/候选人分析.jpeg)
 
 ### 模块3：综合汇总表格
 汇总全部候选人清单：候选人姓名、匹配度区间、推荐程度（推荐/不推荐），一目了然批量筛选。
-<img width="2780" height="1642" alt="FastAPI服务K8s部署问题 (4)" src="https://github.com/user-attachments/assets/b4bdf24c-ec7f-44c9-852e-9258df3bee73" />
+![最终结果](./fig/结果汇总.jpeg)
 ### 模块4：全局总结与招聘建议
 1. 整体筛选结论（多少候选人满足基本门槛）；
 2. 不匹配核心原因归纳（专业不符、技能缺失、行业经验不相关等）；
